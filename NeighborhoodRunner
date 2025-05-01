@@ -1,0 +1,11 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+    
+    Cube c = new Cube();
+
+   c.paintCube();
+   
+  }
+}
