@@ -1,0 +1,1274 @@
+import org.code.neighborhood.*;
+
+public class Cube extends PainterPlus{
+
+  public Cube(){}
+ 
+  public void paintCube() {
+      
+    for (int i = 0; i < 15; i++) {
+      paint("blue");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 14; i++) {
+      paint("blue");
+      move();
+    }
+    //line 2
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+    for (int i = 0; i < 13; i++) {
+      paint("blue");
+      move();
+   }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+  }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 12; i++) {
+      paint("blue");
+      move();
+    }
+    //line 3
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    for (int i = 0; i < 11; i++) {
+      paint("blue");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+   for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+  for (int i = 0; i < 10; i++) {
+      paint("blue");
+      move();
+    }
+    //line 4
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+     for (int i = 0; i < 9; i++) {
+      paint("blue");
+      move();
+     }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 10; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 8; i++) {
+      paint("blue");
+      move();
+    }
+    //line 5
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    for (int i = 0; i < 7; i++) {
+      paint("blue");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 6; i++) {
+      paint("blue");
+      move();
+    }
+    //line 6
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+     for (int i = 0; i < 5; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("blue");
+      move();
+    }
+    //line 7
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+  for (int i = 0; i < 3; i++) {
+      paint("blue");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("blue");
+      move();
+    }
+    //line 8
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+    for (int i = 0; i < 1; i++) {
+      paint("blue");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      for (int x = 0; x < 2; x++) {
+      paint("black");
+      move();
+    }
+      for (int x = 0; x < 2; x++) {
+      paint("yellow");
+      move();
+    }
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    //line 9
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    
+    for (int i = 0; i < 1; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 10; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 10; i++) {
+      paint("yellow");
+      move();
+    }
+    
+    //line 10
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+    for (int x = 0; x < 2; x++) {
+    paint("black");
+    move();
+      }
+    for (int x = 0; x < 2; x++) {
+    paint("yellow");
+    move();
+    }
+   }
+    for (int i = 0; i < 4; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    //line 11
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+
+    paint("black");
+    move();
+    
+    paint("red");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    paint("green");
+    move();
+    //line 12
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    paint("black");
+    move();
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    //line 13
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    //line 14
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 10; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+      paint("black");
+      move();
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    //line 15
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 6; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+      for (int i = 0; i < 1; i++) {
+      paint("black");
+      move();
+    }
+    //line 16
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+
+    paint("black");
+    move();
+    paint("green");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("yellow");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+   for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    paint("red");
+    move();
+    paint("black");
+    //line 17
+    turnLeft();
+    move();
+    turnLeft();
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    //line 18
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+    paint("green");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    paint("red");
+    move();
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 19
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    //line 20
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+    paint("green");
+    move();
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+    paint("red");
+    move();
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 21
+
+    paint("black");
+    move();
+    paint("red");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 8; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    paint("green");
+    move();
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    //line 22
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 5; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 23
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 5; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    //line 24
+    paint("black");
+    move();
+    
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 25
+    for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+    for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+    for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+    for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+    paint("black");
+    turnRight();
+    move();
+    turnRight();
+    //line 26
+     for (int i = 0; i < 2; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 3; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+
+     for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+     for (int i = 0; i < 8; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+
+     for (int i = 0; i < 3; i++) {
+      paint("red");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+    paint("blue");
+    move();
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 27
+     for (int i = 0; i < 5; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+    paint("black");
+    move();
+     for (int i = 0; i < 5; i++) {
+      paint("red");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 5; i++) {
+      paint("green");
+      move();
+    }
+    paint("black");
+    move();
+     for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+    //line 28
+     for (int i = 0; i < 6; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 5; i++) {
+      paint("green");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 5; i++) {
+      paint("red");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 5; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 29
+     for (int i = 0; i < 9; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("red");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 4; i++) {
+      paint("green");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 8; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+    //line 30
+     for (int i = 0; i < 10; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("green");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("red");
+      move();
+    }
+     for (int i = 0; i < 3; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 9; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    turnLeft();
+    move();
+    turnLeft();
+    //line 31
+     for (int i = 0; i < 12; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 8; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 11; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    turnRight();
+    move();
+    turnRight();
+    //line 32
+     for (int i = 0; i < 15; i++) {
+      paint("blue");
+      move();
+    }
+     for (int i = 0; i < 2; i++) {
+      paint("black");
+      move();
+    }
+     for (int i = 0; i < 14; i++) {
+      paint("blue");
+      move();
+    }
+    paint("blue");
+    
+  }
+}
